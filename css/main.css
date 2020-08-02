@@ -301,9 +301,9 @@ color: var(--accent-color);
 .position-for-all img{
    display: block;
 } 
-.facebook{
+.insta{
 fill: red;
-width: 15px ;
+width: 15px;
 height: 15px;    
 }
 /* Постоянные клиенты (позиционирование) */
