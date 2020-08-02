@@ -301,7 +301,11 @@ color: var(--accent-color);
 .position-for-all img{
    display: block;
 } 
-
+.facebook{
+fill: red;
+width: 15px ;
+height: 15px;    
+}
 /* Постоянные клиенты (позиционирование) */
 .clients{
 display: flex;
