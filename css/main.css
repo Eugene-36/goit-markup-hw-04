@@ -27,6 +27,7 @@ list-style:none;
 }
 /* Убирает подчёркивание и добавляет стили */
 .link-underline{
+    
 color: var(--primary-text-color);
 text-decoration: none;
 font-weight: 500;
@@ -274,7 +275,6 @@ padding-left: 32px;
 }
 .team-social-item{
 justify-content: center;
-/* margin-right: 10px; */
 margin-left: 0px;
 margin-top: 0px;
 }
@@ -301,10 +301,25 @@ color: var(--accent-color);
 .position-for-all img{
    display: block;
 } 
-.insta{
-fill: red;
-width: 30px;
-height: 30px;    
+/* эффекты на соц.сети */
+.team-social-item{
+fill:  #AFB1B8;
+border-radius: 50%;  
+
+}
+
+.appearance-social{
+fill:  #AFB1B8;
+width: 20px;
+height: 20px;  
+}
+.team-social-item:hover{
+background-color:var(--accent-color);
+border-radius: 50%;
+
+}
+.appearance-social:hover{
+fill: #FFFFFF;
 }
 /* Постоянные клиенты (позиционирование) */
 .clients{
