@@ -39,9 +39,9 @@ font-style: normal;
 .text .text-light:focus{
 color: var(--accent-color);
 }
- .text-light:hover{
+ /* .text-light:hover{
 color: var(--accent-color);
-} 
+}  */
 
 /* Задний фон чтобы посмотреть есть пробелы или нет */
 .section.shed{
@@ -143,7 +143,7 @@ display: flex;
 /* .contact-info:hover{
 color: var(--accent-color);
 } */
-.contact-info svg:hover{
+ .item svg:hover{
 fill: #2196F3;    
 vertical-align: middle;
 }
