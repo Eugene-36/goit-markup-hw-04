@@ -36,20 +36,14 @@ line-height: 1.7;
 font-style: normal;
 }
 
-
 .text .text-light:focus{
 color: var(--accent-color);
 }
-.text-light:hover{
+ .text-light:hover{
 color: var(--accent-color);
-}
-
+} 
 
 /* Задний фон чтобы посмотреть есть пробелы или нет */
-/* .section.color{
-background-color: rebeccapurple;
-padding-bottom: 94px;
-} */
 .section.shed{
 background-color: royalblue;
 }
@@ -145,9 +139,15 @@ line-height: 1.14;
 .contact-info{
 display: flex;   
 }
+
+/* .contact-info:hover{
+color: var(--accent-color);
+} */
 .contact-info svg:hover{
-background-color: var(--accent-color);
+fill: #2196F3;    
+vertical-align: middle;
 }
+
 .contact-info svg{
 margin-right: 10px;
 align-items: center;
