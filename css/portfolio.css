@@ -1,9 +1,9 @@
 :root{
-    --primary-text-color:#757575;
-    --accent-color:#2196F3;
-    --head-color: #212121;
-    --white-color:#FFFFFF;
-    --bg-color:#F5F4FA;
+--primary-text-color:#757575;
+--accent-color:#2196F3;
+--head-color: #212121;
+--white-color:#FFFFFF;
+--bg-color:#F5F4FA;
 
 }
 
@@ -133,6 +133,11 @@ align-items: center;
 }
 .nav-info >.contact-info{
 margin-left: auto; 
+}
+.contact-info svg{
+margin-right: 10px;
+align-items: center;
+fill: #757575;
 }
 /* Выравнивание для кнопок */
 .filter{
@@ -284,9 +289,11 @@ margin-top: 20px;
 color: var(--white-color);
 }
 .site-nav-yet a{
-display: block;
+display: inline-flex;
 height: 44px;
 width: 44px;
+align-items: center;
+justify-content: center;
 }
 .shape-footer{
 width: 1200px;
@@ -338,32 +345,10 @@ font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
 }
-.style-inst{
-background-image:url(../img/inst-white-new.svg); 
-background-size: 20px;
-background-color: rgba(255, 255, 255, 0.1);
-background-repeat: no-repeat;
-background-position: center;
-border-radius: 50%;
-}
-.style-twit{
-background-image: url(../img/twit-white.svg);    
-background-size: 20px;
-background-color: rgba(255, 255, 255, 0.1);
-background-repeat: no-repeat;
-background-position: center;
-border-radius: 50%;
-}
-.style-face{
-background-image: url(../img/face-white.svg);    
-/* background-size: s 20px; */
-background-color: rgba(255, 255, 255, 0.1);
-background-repeat: no-repeat;
-background-position: center;
-border-radius: 50%;
-}
+.style-inst, 
+.style-twit, 
+.style-face, 
 .style-in{
-background-image: url(../img/linkedin-white.svg);
 background-size: 20px;
 background-color: rgba(255, 255, 255, 0.1);
 background-repeat: no-repeat;
@@ -375,4 +360,8 @@ border-radius: 50%;
 .style-face:hover, 
 .style-in:hover{
 background-color:var(--accent-color);
+}
+.appearance-social{
+width: 20px;
+height: 20px;  
 }
