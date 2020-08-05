@@ -39,9 +39,9 @@ font-style: normal;
 .text .text-light:focus{
 color: var(--accent-color);
 }
- /* .text-light:hover{
+ .text-light:hover{
 color: var(--accent-color);
-}  */
+} 
 
 /* Задний фон чтобы посмотреть есть пробелы или нет */
 .section.shed{
@@ -76,7 +76,7 @@ margin-left: auto;
 margin-right: auto;
 
 width: 1200px;
-/* outline: 2px solid tomato; */
+/* outline: 2px solid tomato;  */
 padding-left: 15px;
 padding-right: 15px;
 
@@ -139,15 +139,9 @@ line-height: 1.14;
 .contact-info{
 display: flex;   
 }
-
-/* .contact-info:hover{
-color: var(--accent-color);
-} */
- .item svg:hover{
-fill: #2196F3;    
-vertical-align: middle;
+.item:hover svg {
+fill: #2196F3;
 }
-
 .contact-info svg{
 margin-right: 10px;
 align-items: center;
@@ -172,9 +166,6 @@ margin-left: auto;
 margin-right: auto;
 align-items: center;
 padding-top:  200px;
-padding-bottom: 280px;
-padding-right: 452px;
-padding-left: 452px;
 
 background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8),
 rgba(47, 48, 58, 0.8) ),
@@ -184,6 +175,7 @@ background-size:cover;
 background-repeat: no-repeat;
 background-position: center;
 }
+
 /* Список качеств ( позиционирование) */
 .list-qualities{
 display: flex;
@@ -314,7 +306,7 @@ padding-top: 94px;
 padding-bottom: 94px;    
 }
 .clients-logo{
-    margin-right: 30px;
+margin-right: 30px;
       
 }
 .style-posh{
@@ -325,7 +317,7 @@ padding: 19px 65px;
 }
 
 .clients-logo:nth-child(6n){
-    margin-right: 0;
+margin-right: 0;
 } 
 
 .site-nav .link:hover, 
@@ -351,15 +343,13 @@ line-height: 1.18;
 fill:#AFB1B8;
 vertical-align: middle;
 }
-
-.ya-co:hover, 
-.tagline-here:hover, 
-.company-icon:hover, 
-.foster-peters:hover, 
-.brend:hover, 
-.company-tagline:hover{
-fill: var(--accent-color);    
+.clients-logo:hover svg{
+fill: #2196F3;
 }
+ .clients-logo:hover{
+border: 1px solid #2196F3;
+}
+
 /* Работа с секциями (заголовки) */
 .section-title{
 color: var(--head-color);   
@@ -417,7 +407,6 @@ text-align: center;
 /* Стили для главного заголовка */
 .section-hero{
 text-align: center;
-
 }
 
 .section-title-hero{
@@ -473,7 +462,8 @@ margin-top: 20px;
 width: 1170px;
 height: 252px;   
 padding-top: 60px;
-padding-bottom: 60px;  
+padding-bottom: 60px; 
+align-items: baseline; 
 }
 .color-footer{
 color: var(--white-color);
@@ -497,13 +487,10 @@ color:var(--accent-color)
 margin-right: 10px;
 }
 .common{
-
-margin-left: 214px;
 margin-right: 69px;
 } 
 .straight-line{
-align-items: center; 
-/* outline: solid 1px tomato;    */
+ outline: solid 1px tomato;  
 }
 .button.primary{
 padding-top: 10px;

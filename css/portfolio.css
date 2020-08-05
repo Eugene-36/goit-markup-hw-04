@@ -139,6 +139,9 @@ margin-right: 10px;
 align-items: center;
 fill: #757575;
 }
+.item:hover svg {
+fill: #2196F3;
+}
 /* Выравнивание для кнопок */
 .filter{
 display: flex;
@@ -253,6 +256,7 @@ line-height: 1.8;
 .flex-element{
 display: flex;
 flex-wrap: wrap;
+/* outline: 1px solid #EEEEEE; */
 /* background-color: violet;  */
 
 }
@@ -261,9 +265,15 @@ flex-wrap: wrap;
     border: 1px solid #EEEEEE;
 }
 .flex-element-item{
+border-bottom: 1px solid #EEEEEE;
+
+}
+
+.flex-element-item{
 margin-right: 30px;
 margin-bottom: 30px;
 padding-bottom: 20px;
+box-sizing: border-box;
 box-shadow: 
 0px 1px 1px rgba(0, 0, 0, 0.12), 
 0px 4px 4px rgba(0, 0, 0, 0.06), 
