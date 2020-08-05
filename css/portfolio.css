@@ -261,18 +261,19 @@ flex-wrap: wrap;
 
 }
 .flex-element img{
-    display: block;
-    border: 1px solid #EEEEEE;
-}
-.flex-element-item{
-border-bottom: 1px solid #EEEEEE;
-
+display: block;
+border: 1px solid #EEEEEE;
 }
 
+.flex-border{
+display: block;
+border: 1px solid #EEEEEE;
+padding-bottom: 20px;
+}
 .flex-element-item{
 margin-right: 30px;
 margin-bottom: 30px;
-padding-bottom: 20px;
+/* padding-bottom: 20px; */
 box-sizing: border-box;
 box-shadow: 
 0px 1px 1px rgba(0, 0, 0, 0.12), 
@@ -313,6 +314,7 @@ padding-bottom: 60px;
 }
 .flex-new{
 display: flex;
+align-items: baseline;
 }
 .social{
 display: flex;
@@ -329,7 +331,6 @@ margin-right: 10px;
 }
 .common{
 align-items: center;
-margin-left: 214px;
 margin-right: 69px;
 } 
 .button{
