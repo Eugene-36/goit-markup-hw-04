@@ -291,10 +291,13 @@ height: 20px;
 .team-social-item:hover{  
 background-color:var(--accent-color);
 }
-.appearance-social:hover{
+.team-social-item:hover svg{
 fill: #FFFFFF;
 }
 
+.team-social-item :focus .appearance-social{
+fill: #2196F3;
+}
 /* Постоянные клиенты (позиционирование) */
 .clients{
 display: flex;
@@ -343,12 +346,20 @@ line-height: 1.18;
 fill:#AFB1B8;
 vertical-align: middle;
 }
-.clients-logo:hover svg{
+
+ .clients-logo:hover svg{
 fill: #2196F3;
 }
  .clients-logo:hover{
 border: 1px solid #2196F3;
 }
+/* .clients-logo:focus{
+ outline-color: var(--accent-color) ;
+} */
+
+ .style-posh :focus .focuse{
+fill: #2196F3 ;
+}  
 
 /* Работа с секциями (заголовки) */
 .section-title{
@@ -533,4 +544,6 @@ border-radius: 50%;
 .style-in:hover{
 background-color:var(--accent-color);
 }
-
+.site-nav-yet:focus a{
+    fill: #2196F3;
+ }
