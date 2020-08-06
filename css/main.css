@@ -294,6 +294,7 @@ background-color:var(--accent-color);
 .appearance-social:hover{
 fill: #FFFFFF;
 }
+
 /* Постоянные клиенты (позиционирование) */
 .clients{
 display: flex;
