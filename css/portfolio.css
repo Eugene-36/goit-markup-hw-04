@@ -250,9 +250,8 @@ padding-left: 24px;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.8;
-
 }
-
+/* Работа с карточками */
 .flex-element{
 display: flex;
 flex-wrap: wrap;
@@ -286,6 +285,18 @@ margin-right: 0;
 .flex-element-item:nth-child(n + 7){
 margin-bottom: 0px;
 }  
+.without-style{
+display: block;
+text-decoration: none; 
+color: #757575;
+}
+.without-style:hover,
+.without-style:focus{
+box-shadow: 
+1px 4px 6px rgba(0,0,0,0.16), 
+0px 4px 4px rgba(0,0,0,0.6),
+0px 1px 1px rgba(0, 0, 0, 0.12);
+}
 /* Позиционирование подвала */
 .contact-info-new{
 margin-top: 9px;
