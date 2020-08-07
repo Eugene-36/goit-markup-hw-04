@@ -142,6 +142,13 @@ display: flex;
 .item:hover svg {
 fill: #2196F3;
 }
+.item:hover{
+fill: #2196F3;
+}
+.position{
+display: inline-flex; 
+align-items: center;  
+}
 .contact-info svg{
 margin-right: 10px;
 align-items: center;
@@ -149,14 +156,14 @@ fill: #757575;
 }
 
 .contact-info .item + .item{
-    margin-left: 30px;
+margin-left: 30px;
 }
 .nav-info{
-    display: flex;
-    align-items: center;
+display: flex;
+align-items: center;
 }
 .nav-info >.contact-info{
-    margin-left: auto; 
+margin-left: auto; 
 }
 /* Герой */
 .hero{
@@ -168,8 +175,7 @@ align-items: center;
 padding-top:  200px;
 
 background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
-rgba(47, 48, 58, 0.4) ),
-url(../img/header-img.jpg);  
+rgba(47, 48, 58, 0.4) ),url(../img/header-img.jpg);  
 background-color:black;
 background-size:cover;
 background-repeat: no-repeat;
@@ -294,9 +300,12 @@ background-color:var(--accent-color);
 .team-social-item:hover svg{
 fill: #FFFFFF;
 }
-
 .team-social-item :focus .appearance-social{
-fill: #2196F3;
+fill: #FFFFFF;
+}
+.focuse-ligth:focus{
+background-color: var(--accent-color);
+border-radius: 50%;
 }
 /* Постоянные клиенты (позиционирование) */
 .clients{
@@ -309,11 +318,8 @@ padding-top: 94px;
 padding-bottom: 94px;    
 }
 .clients-logo{
-margin-right: 30px;
-      
+margin-right: 30px;    
 }
-
-
 .clients-logo:nth-child(6n){
 margin-right: 0;
 } 
@@ -355,9 +361,9 @@ justify-content: center;
 .social-icons-link:focus .social-icon{
 fill: #2196F3;
 }
-.social-icons-link:focus{
+/* .social-icons-link:focus{
 outline-color: var(--accent-color);  
-}
+} */
  .social-icons-link:hover{
  border: 1px solid #2196F3; 
 }
@@ -382,9 +388,7 @@ color: var(--head-color);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
-
 }
-
 /* Основной текст описания кртинок */
 .section-title-text{   
 font-weight: 400;
@@ -481,7 +485,7 @@ align-items: baseline;
 color: var(--white-color);
 }
 .delete{
-    margin-right: 0px;
+margin-right: 0px;
 } 
 .flex-new{
 display: flex;
@@ -490,11 +494,9 @@ display: flex;
 display: flex;
 margin-top: 20px;
 }
-
 .social a:hover{
 color:var(--accent-color)
 }
-
 .social-network:not(:last-child){
 margin-right: 10px;
 }
@@ -546,5 +548,6 @@ border-radius: 50%;
 background-color:var(--accent-color);
 }
 .focus-footer:focus {
+ border-radius: 50%;   
  background-color: #2196F3;
  }
