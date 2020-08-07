@@ -358,8 +358,8 @@ fill: #2196F3;
 .social-icons-link:focus{
 outline-color: var(--accent-color);  
 }
- .clients-logo:hover{
-border: 1px solid #2196F3;
+ .social-icons-link:hover{
+ border: 1px solid #2196F3; 
 }
 
 /* Работа с секциями (заголовки) */
